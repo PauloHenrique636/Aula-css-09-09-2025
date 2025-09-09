@@ -1,0 +1,58 @@
+/* tag de comentário */
+/* podemos selecionar uma tag pelo nome, pelo id (identificador único ou pela classe) */
+body{
+    /* altera a cor de fundo do site */
+    background-color: rgb(83, 35, 35);
+    /* insere uma imagem no fundo do site */
+    background-image: url("https://static0.cbrimages.com/wordpress/wp-content/uploads/2024/11/jjk-s-shibuya-incident.jpg");
+    /* faz com que a imagem não repita */
+    background-repeat: no-repeat;
+    /* faz com que a imagem cubra todo o espaço do site */
+    background-size: cover;
+}
+p{
+    color: rgb(0, 255, 255);
+}
+/* sempre que chamamos uma tag pelo id, adicionamos o sinal de "#" no início */
+#OVO{
+    color: rgb(223, 0, 0);
+}
+/* sempre que chamamos uma tag pela classe, adicionamos um sinal de "." no início */
+.título{
+    /* adiciona um sublinhado ao texto */
+    text-decoration: underline;
+    /* altera o tamanho da fonte, medidas em (px, rem) */
+    font-size: 16px;
+    /* seleciona a família da fonte */
+    font-family: Arial, Helvetica, sans-serif;
+    /* altera o nível de negrito da fonte */
+    font-weight: 400;
+}
+
+img{
+    /* altera a altura da imagem */
+    height:100%;
+    /* altera a largura da imagem */
+    width:100%;
+}
+ul{
+    /* altera o estilo da lista */
+    list-style: none;
+    display: flex;
+    li{
+        /* cria um espaçamento interno */
+        padding: 20px;
+        /* altera o redondamento dos itens */
+        border-radius: 10px;
+        /* altera a cor do fundo */
+        background-color: crimson;
+        /* cria um espaçamento entre itens */
+        gap: 10px;
+
+        a{
+            /* altera a cor da fonte */
+            color: gold;
+            text-decoration: none;
+        }
+    }
+}
